@@ -1,7 +1,7 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
+FROM openjdk:17-oracle
 
 # Refer to Maven build -> finalName
-ARG WAR_FILE=target/demoUIproject-0.0.1-SNAPSHOT.war
+ARG WAR_FILE=target/demoUIproject.war
 
 # cd /app
 WORKDIR /app
