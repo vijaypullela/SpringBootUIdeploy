@@ -54,6 +54,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>demoUIproject</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -61,5 +62,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
